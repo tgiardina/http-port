@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": ["dom", "ES2018"],
+    "outDir": "build",
+    "module": "commonjs",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es6",
+    "typeRoots": ["node_modules/@types", "node_modules/web-ext-types"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", ".vscode"]
+}
